@@ -1,0 +1,49 @@
+header, footer{
+    height: 100px;
+    font-size:26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+    color: #ffffff;
+}
+.outer-container{
+    position: relative;
+}
+.clock-dashed-1{
+    position: absolute;
+}
+.clock-dashed-2{
+    position: absolute
+}
+.second-needle{
+    position: absolute;
+    height: 44px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: red;
+    top: 48px;
+    left: 65px;
+}
+.minute-needle{
+    position: absolute;
+    height: 44px;
+    width: 2px;
+    border-radius: 50%;
+    background-color: black;
+    top: 48px;
+    left: 65px;
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+.hour-needle{
+    position: absolute;
+    height: 34px;
+    width: 3.5px;
+    border-radius: 50%;
+    background-color: black;
+    top: 48px;
+    left: 65px;
+    transform: rotate(120deg);
+    transform-origin: top left;
+}
